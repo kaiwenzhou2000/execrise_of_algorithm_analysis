@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f766bd34-ab4d-48a3-9a26-57c7f009af8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/make_wire.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eight_queen.py" beforeDir="false" afterPath="$PROJECT_DIR$/eight_queen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mVyMpit5O9l7dEDaiq9jodfiyE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Python.make_wire">
+  <component name="RunManager" selected="Python.random_number">
     <configuration name="eight_queen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="execrise_of_algorithm_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +137,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="random_number" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="execrise_of_algorithm_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="schedule" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="execrise_of_algorithm_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,6 +187,7 @@
       <item itemvalue="Python.schedule" />
       <item itemvalue="Python.eight_queen" />
       <item itemvalue="Python.make_wire" />
+      <item itemvalue="Python.random_number" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -174,7 +204,8 @@
       <workItem from="1609599247457" duration="3000" />
       <workItem from="1609606875183" duration="1151000" />
       <workItem from="1609651114357" duration="2913000" />
-      <workItem from="1609658324286" duration="7105000" />
+      <workItem from="1609658324286" duration="7303000" />
+      <workItem from="1609681296106" duration="333000" />
     </task>
     <servers />
   </component>
@@ -189,11 +220,6 @@
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/make_wire.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -203,11 +229,12 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$random_number.coverage" NAME="random_number Coverage Results" MODIFIED="1609681483937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$tank.coverage" NAME="plan Coverage Results" MODIFIED="1609607736420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$main.coverage" NAME="tank Coverage Results" MODIFIED="1609598576570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$matrix_multiplication.coverage" NAME="matrix_multiplication Coverage Results" MODIFIED="1609658938786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1609661997312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$make_wire.coverage" NAME="make_wire Coverage Results" MODIFIED="1609680502103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$make_wire.coverage" NAME="make_wire Coverage Results" MODIFIED="1609681461249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$eight_queen.coverage" NAME="eight_queen Coverage Results" MODIFIED="1609678505477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
