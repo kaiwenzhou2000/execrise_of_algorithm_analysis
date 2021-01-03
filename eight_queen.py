@@ -5,13 +5,6 @@ chess_broad = [[0 for i in range(MAXN)] for j in range(MAXN)]
 cnt = 0
 
 
-def copy_arr(a):
-    temp = []
-    for line in a:
-        temp.append(line[:])
-    return temp
-
-
 def check_out(x, y):
     """
     判断是否出现皇后之间的冲突
