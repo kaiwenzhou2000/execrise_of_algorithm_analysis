@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f766bd34-ab4d-48a3-9a26-57c7f009af8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/two_way_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number_tower.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Python.two_way_sort">
+  <component name="RunManager" selected="Python.number_tower">
     <configuration name="eight_queen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="execrise_of_algorithm_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +137,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="number_tower" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="execrise_of_algorithm_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/number_tower.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="plan" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="execrise_of_algorithm_analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +233,7 @@
       <item itemvalue="Python.make_wire" />
       <item itemvalue="Python.loading_ship" />
       <item itemvalue="Python.two_way_sort" />
+      <item itemvalue="Python.number_tower" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -230,7 +253,8 @@
       <workItem from="1609658324286" duration="7303000" />
       <workItem from="1609681296106" duration="595000" />
       <workItem from="1609682483450" duration="899000" />
-      <workItem from="1609859102771" duration="2026000" />
+      <workItem from="1609859102771" duration="2153000" />
+      <workItem from="1609998202284" duration="544000" />
     </task>
     <servers />
   </component>
@@ -257,11 +281,6 @@
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/two_way_sort.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -276,7 +295,8 @@
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$main.coverage" NAME="tank Coverage Results" MODIFIED="1609598576570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$matrix_multiplication.coverage" NAME="matrix_multiplication Coverage Results" MODIFIED="1609658938786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1609661997312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$two_way_sort.coverage" NAME="two_way_sort Coverage Results" MODIFIED="1609861700031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$number_tower.coverage" NAME="number_tower Coverage Results" MODIFIED="1609998350774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$two_way_sort.coverage" NAME="two_way_sort Coverage Results" MODIFIED="1609998318347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$make_wire.coverage" NAME="make_wire Coverage Results" MODIFIED="1609681461249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/execrise_of_algorithm_analysis$eight_queen.coverage" NAME="eight_queen Coverage Results" MODIFIED="1609678505477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
